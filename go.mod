@@ -1,3 +1,3 @@
-module github.com/medreza/go-module-versioning/v2
+module github.com/medreza/go-module-versioning/v3
 
 go 1.21
