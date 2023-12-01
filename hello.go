@@ -6,6 +6,6 @@ type Hello struct {
 	Name string
 }
 
-func (h *Hello) SayHello() {
+func (h *Hello) Say() {
 	fmt.Println("Hello, ", h.Name)
 }
