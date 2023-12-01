@@ -9,3 +9,7 @@ type Hello struct {
 func (h *Hello) Say() {
 	fmt.Println("Hello, ", h.Name)
 }
+
+func (h *Hello) SayAgain() {
+	fmt.Println("Hello again, ", h.Name)
+}
